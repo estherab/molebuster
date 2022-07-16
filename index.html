@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <script src="./index.js" defer></script>
+    <title>Mole Buster</title>
+</head>
+<body>
+    <div class="header">
+        <p class="label-points">Puntuación</p>
+        <p class="points">0</p>
+
+        <p class="label-time">Tiempo</p>
+        <p class="time"></p>
+    </div>
+
+    <div class="buttons">
+        <button class="play" onclick="start()"><img class="icon" src="./play.png" alt=""></button>
+        <button class="stop" onclick="stop()"><img class="icon" src="./stop.png" alt=""></button>
+    </div>
+    
+    <div class="board">
+        <div class="row">
+            <div class="cell"><img class="mole" src="./mole.png" alt=""></div>
+            <div class="cell"><img class="mole" src="./mole.png" alt=""></div>
+            <div class="cell"><img class="mole" src="./mole.png" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="cell"><img class="mole" src="./mole.png" alt=""></div>
+            <div class="cell"><img class="mole" src="./mole.png" alt=""></div>
+            <div class="cell"><img class="mole" src="./mole.png" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="cell"><img class="mole" src="./mole.png" alt=""></div>
+            <div class="cell"><img class="mole" src="./mole.png" alt=""></div>
+            <div class="cell"><img class="mole" src="./mole.png" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>

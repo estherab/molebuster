@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6EDB5;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.buttons {
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+}
+
+.label-time, .label-points {
+    margin-right: 10px;
+}
+
+.points {
+    margin-right: 50px;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    margin: 2%;
+    border-radius: 50%;
+    background-color: #D0AF83;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mole {
+    width: 70px;
+    height: 80px;
+}
